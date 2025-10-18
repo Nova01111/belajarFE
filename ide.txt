@@ -1,0 +1,11 @@
+1. aplikasi buku tamu
+    - bisa mendaftarkan tamu siapa saja yang masuk
+    - bisa melihat tamu yang masuk sebelumnya
+    - bisa melihat tamu tersebut masuk tanggal berapa saja
+    - bisa mengunduh dalam bentuk excel
+2. form peminjaman barang
+    - bisa melihat stock barang secara otomatis
+    - bisa melihat siapa yang belum mengembalikan barang lebih dari 2 hari
+    - bisa menambahkan barang baru
+    - bisa diakses dari sisi admin dan pengguna
+    
