@@ -165,7 +165,7 @@
     </div>
 
     <!-- tabel -->
-     <div>
+    <div>
         <h1>Table (table)</h1>
         <p>Tabel digunakan untuk membuat table <br> tr untuk baris <br> td untuk data <br> th untuk hader</p>
         <table border="1", style="border-collapse: collapse;">
@@ -179,8 +179,55 @@
                 <td colspan="2">data 2</td>
             </tr>
         </table>
-     </div>
-    
+    </div>
+
+    <!-- form -->
+    <div>
+        <h1>Form (form)</h1>
+        <p>Digunakan untuk membuat form</p>
+        <form action="">
+            <fieldset>
+                <legend>Form</legend>
+                Nama Depan : <input type="text"><br>
+                Nama Belakang : <input type="text"><br>
+                Password : <input type="password">
+                <h4>Musik favorit</h4>
+                <input type="checkbox" name="musik" value="Tulus"> <label for="Tulus">Tulus</label>
+                <input type="checkbox" name="musik" value="Juicy_Luicy"><label for="Juicy_Luicy">Juicy Luicy</label>
+                <h4>Makanan Favorit</h4>
+                <input type="radio" name="makanan" value="cheesecake"> <label for="cheesecake">cheesecake</label>
+                <input type="radio" name="makanan" value="donat"><label for="donat">donat</label><br>
+                <h4>Dropbox</h4>
+                <select name="pendidikan">
+                    <option value="SD">Sekolah Dasar</option>
+                    <option value="SMP">Sekolah Menengah Pertama</option>
+                    <option value="SMA">Sekolah Menengah Atas</option>
+                    <option value="Mahasiswa">Mahasiswa</option>
+                </select>
+                <h4>Upload file</h4>
+                <input type="file" name="file" value="file">
+                <input type="button" name="Submit" value="Submit">
+                <button type="button" onclick="alert('Hello World')">Submit</button>
+                <h4>List</h4>
+                <input list="browser">
+                <datalist id="browser">
+                    <option value="edge">edge</option>
+                    <option value="firefox">firefox</option>
+                    <option value="chrome">chrome</option>
+                    <option value="opera">opera</option>
+                    <option value="safari">safari</option>
+                </datalist>
+                <h4>Color</h4>
+                <input type="color" name="color" value="#ff0000">
+                <h4>Date atau Waktu</h4>
+                <input type="date" name="Waktu">
+                <h4>Email</h4>
+                <input type="email" name="email">
+                <h4>Nomor</h4>
+                <input type="number" name="Nomor" min="0" max="10">
+            </fieldset>
+        </form>
+    </div>
 
 </body>
 </html>
